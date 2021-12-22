@@ -19,15 +19,21 @@
             <a href="./index.html" class="link header-logo">
                 <span class="header-logo__web-text">Web</span><span class="header-logo--dark">Studio</span>
             </a>
-            <button type="button" class="menu-button">
-                <svg
-                 width= "40" 
-                 height= "40"
-                 aria-label="Переключатель мобильного меню">
-                    <use class="menu-button__icon-close" href="./images/symbol-defs.svg#icon-close_40px-1x"></use>
-                    <use class="menu-button__icon-menu" href="./images/symbol-defs.svg#icon-menu_40px-1x"></use>
+            <button type="button" class="js-open-menu menu-button is-open" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu-button__icon-menu"
+                width="40px" 
+                height="40px"
+                aria-label="Переключатель мобильного меню">
+                    <use href="./images/symbol-defs.svg#icon-menu"></use>
                 </svg>
             </button>
+            <div>
+                <svg class="menu-button__icon-close"
+                width="40px" 
+                height="40px">
+                    <use href="./images/symbol-defs.svg#icon-menu-close"></use>
+                </svg>
+            </div>
             <ul class="list header-list">
                 <li class="header-list__header-item"><a class="link header-list__header-link header-list__header-link--active" href="./index.html">Студия</a></li>
                 <li class="header-list__header-item"><a class="link header-list__header-link" href="./portfolio.html">Портфолио</a></li>

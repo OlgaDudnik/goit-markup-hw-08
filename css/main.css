@@ -88,6 +88,18 @@ body {
   border: none;
 }
 
+.menu-button .menu-button__icon-menu {
+  display: none;
+}
+
+.menu-button.is-open .menu-button__icon-menu {
+  display: block;
+}
+
+.menu-button.is-open .menu-button__icon-close {
+  display: none;
+}
+
 .description-wrapper {
   text-align: center;
   padding-top: 94px;
