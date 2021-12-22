@@ -13,11 +13,21 @@
 </head>
 <body>
 <header class="header">
+    <div class="page-header">
     <div class="container">
         <nav class="header-navigation">
             <a href="./index.html" class="link header-logo">
                 <span class="header-logo__web-text">Web</span><span class="header-logo--dark">Studio</span>
             </a>
+            <button type="button" class="menu-button">
+                <svg
+                 width= "40" 
+                 height= "40"
+                 aria-label="Переключатель мобильного меню">
+                    <use class="menu-button__icon-close" href="./images/symbol-defs.svg#icon-close_40px-1x"></use>
+                    <use class="menu-button__icon-menu" href="./images/symbol-defs.svg#icon-menu_40px-1x"></use>
+                </svg>
+            </button>
             <ul class="list header-list">
                 <li class="header-list__header-item"><a class="link header-list__header-link header-list__header-link--active" href="./index.html">Студия</a></li>
                 <li class="header-list__header-item"><a class="link header-list__header-link" href="./portfolio.html">Портфолио</a></li>
@@ -41,6 +51,7 @@
             </li>
         </ul>
     </div>
+</div>
 </header>
 
 <!---------------------- BANNER ----------------------------->
@@ -127,7 +138,7 @@
 
     <!---------------------- OUR TEAM ----------------------------->
 
-    <section class="our-team">
+    <!-- <section class="our-team">
         <div class="our-team__container container">
             <h2 class="our-team__title">Наша команда</h2>
             <ul class="list our-team__list">
@@ -289,11 +300,11 @@
                 </li>
         </ul>
         </div>
-    </section>
+    </section> -->
 
     <!---------------------- COMPANYS ----------------------------->
 
-    <section class="companys">
+    <!-- <section class="companys">
         <h2 class="companys__title">Постоянные клиенты</h2>
             <ul class="list companys__list">
                 <li tabindex=0 class="companys__item--accent">
@@ -340,20 +351,20 @@
                 </li>
             </ul>
     </section>
-</main>
+</main> -->
 
 <!---------------------- FOOTER ----------------------------->
 
-<footer class="footer">
+<!-- <footer class="footer">
     <div class="container footer-cont">
         <div>
             <a class="link logo-footer" href="/">
                 <span class="logo-footer__web-text">Web</span><span class="logo-footer--light">Studio</span>
-            </a>
+            </a> -->
 
 <!---------------------- FOOTER, CONTACTS -----------------------------> 
 
-            <address>
+            <!-- <address>
                 <ul class="contacts list">
                     <li><a class="link contacts__address" href="" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
                     <li><a class="link contacts__address-item" href="mailto:info@example.com">info@example.com</a></li>
@@ -417,7 +428,7 @@
         </div>
     </div>
     </div>
-</footer>
+</footer> -->
     
 <!---------------------- MODAL ----------------------------->
 
@@ -494,10 +505,11 @@
             </div>
             <button type="submit" class="submit-button">Отправить</button>
         </form>
-    </div>
+    </div> 
 </div>
    
 <script src="./js/modal.js"></script>
+<script> src="./js/mobile-menu.js"</script>
 </body>
 </html>
 
