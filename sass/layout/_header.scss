@@ -159,6 +159,20 @@
   fill: currentColor;
 }
 
+.menu-container {
+  display: none;
+  &.is-open{
+    position: absolute;
+    display: block;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    background-color: #fff;
+  }
+}
+
 .menu-button {
   display: inline-flex;
   margin: 0;
@@ -167,13 +181,9 @@
 }
 
 .menu-button .menu-button__icon-menu {
-  display: none;
+  margin-left: auto;
 }
 
-.menu-button.is-open .menu-button__icon-menu {
-  display: block;
-}
-
-.menu-button.is-open .menu-button__icon-close {
-  display: none;
-}
+// .menu-button.is-open .menu-button__icon-menu {
+//   display: block;
+// }

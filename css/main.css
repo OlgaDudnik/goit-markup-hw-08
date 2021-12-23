@@ -81,6 +81,21 @@ body {
   fill: currentColor;
 }
 
+.menu-container {
+  display: none;
+}
+
+.menu-container.is-open {
+  position: absolute;
+  display: block;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+}
+
 .menu-button {
   display: inline-flex;
   margin: 0;
@@ -89,15 +104,7 @@ body {
 }
 
 .menu-button .menu-button__icon-menu {
-  display: none;
-}
-
-.menu-button.is-open .menu-button__icon-menu {
-  display: block;
-}
-
-.menu-button.is-open .menu-button__icon-close {
-  display: none;
+  margin-left: auto;
 }
 
 .description-wrapper {
@@ -341,11 +348,6 @@ img {
 .companys__item--accent:hover .companys__icon, .companys__item--accent:focus .companys__icon {
   fill: var(--accent-color);
   transition: fill var(--timing-function);
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
 }
 
 .filters-section {

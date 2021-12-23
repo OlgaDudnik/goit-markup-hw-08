@@ -4,23 +4,23 @@ img {
     height: auto;
   }
   
-  a {
-    text-decoration: none;
+a {
+  text-decoration: none;
+  color: var(--second-title-color);
+  &:visited {
     color: var(--second-title-color);
-    &:visited {
-      color: var(--second-title-color);
-    }
- }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
   }
+}
 
-  button {
-      cursor: pointer;
-  }
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+button {
+    cursor: pointer;
+}
