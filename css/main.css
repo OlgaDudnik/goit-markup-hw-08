@@ -65,6 +65,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   margin-right: 93px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .header-logo--dark {
@@ -98,13 +100,19 @@ body {
 
 .menu-button {
   display: inline-flex;
-  margin: 0;
   padding: 0;
   border: none;
+  background-color: inherit;
 }
 
 .menu-button .menu-button__icon-menu {
   margin-left: auto;
+}
+
+.menu-close {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
 }
 
 .description-wrapper {
@@ -112,23 +120,23 @@ body {
   padding-top: 94px;
 }
 
-.description__link {
-  justify-content: center;
-  align-items: center;
-  background: #f5f4fa;
-  border-radius: 4px;
+.description__container {
+  width: 100%;
   height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
-.description__title {
-  margin: 0;
-  font-weight: bold;
+.description__item .description__title {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .description__text {
@@ -494,8 +502,8 @@ img {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
-  letter-spacing: 0.03em;
-  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
   margin: 0;

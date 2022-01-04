@@ -23,6 +23,8 @@
   font-size: 26px;
   line-height: 1.19;
   margin-right: 93px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .header-logo--dark {
@@ -175,14 +177,22 @@
 
 .menu-button {
   display: inline-flex;
-  margin: 0;
   padding: 0;
   border: none;
+  background-color: inherit;
 }
 
 .menu-button .menu-button__icon-menu {
   margin-left: auto;
+
 }
+
+.menu-close {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+}
+
 
 // .menu-button.is-open .menu-button__icon-menu {
 //   display: block;
