@@ -15,15 +15,20 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
+    margin: 0 0 30px 0;
+  }
   
 .our-team ul {
   justify-content: center;
   margin: 0;
 }
   
-  .our-team__social-networks + .our-team__social-networks {
-    margin-left: 10px;
+  // .our-team__social-networks + .our-team__social-networks {
+  //   margin-left: 10px;
+  // }
+
+  .our-team__social-networks {
+    display: flex;
   }
   
 .our-team__link {
@@ -56,6 +61,11 @@
   }
 }
 
+.our-team__social {
+  display: flex;
+  justify-content: center;
+}
+
 .our-team ul {
   &.our-team__list > .our-team__item {
     text-align: center;
@@ -66,7 +76,7 @@
     &:last-child {
       margin-right: 0;
     }
-    &> .our-team__name {
+    .our-team__name {
       margin: 0 0 10px 0;
       font-weight: 500;
       font-size: 16px;
@@ -86,8 +96,9 @@
   }
 }
 
+
+
 img {
   display: block;
 }
-
 
