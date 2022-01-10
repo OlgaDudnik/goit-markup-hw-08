@@ -1,21 +1,19 @@
-@import './utils/variables';
+@import './utils/vars';
+@import './utils/hidden';
+@import './utils/placeholder';
 
 @import './base/reset';
-@import './base/common';
 
-@import './base/mobile';
+@import './components/container';
+@import './components/backdrop';
+@import './components/modal-form';
+@import './components/mob-menu';
 
 @import './layout/header';
-
-@import './layout/description';
-@import './layout/what-we-do';
-@import './layout/our-team';
-@import './layout/companys';
-@import './layout/portfolio-filters';
-@import './layout/portfolio-img';
-
-@import './components/banner';
-@import './components/container';
-@import './components/modal';
-
+@import './layout/hero';
+@import './layout/skills';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
 @import './layout/footer';
+@import './layout/portfolio';
